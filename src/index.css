@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: rgb(226, 233, 240);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.test{
+  background-color: rgb(56, 39, 97);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+/* Heading */
+.heading{
+  padding: 30px;
+  text-align: center;
+}
+hr{
+  width: 100px;
+  border: solid rgb(93, 216, 210) 2px;
+}
+
+/* Review */
+.review{
+  background-color: white;
+  width: 600px;
+  height: 370px;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+/* test */
+.image-cropper {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card{
+  display: flex;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(93, 216, 210);
+}
+p{
+  color: rgb(73, 73, 114);
+}
+
+button{
+  height: 30px;
+  color: rgb(93, 216, 210);
+  font-size: 0.9rem;
+  border: 0px;
+  background-color: white;
+}
+.surprise{
+  width: 100px;
+  background-color: rgb(226, 233, 240);
+  color: rgb(56, 39, 97); 
+  margin-top: 10px;
 }
